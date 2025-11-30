@@ -27,7 +27,7 @@ while True:
             "acc_num" : acc_num
         }
         data_base_dict.update({acc_num : details})
-        print(f"\n✅ Account created successfully! Your Account Number is: {acc_num}\n\nNote: Please don't share this account number with anyone we will not be responsible")    
+        print(f"\nAccount created successfully! Your Account Number is: {acc_num}\n\nNote: Please don't share this account number with anyone we will not be responsible")    
     elif value == 1:
         sucess = 0 
         account_number = int(input("Enter the account number-->  "))
@@ -68,3 +68,4 @@ while True:
                     break
                 else: 
                     print("Invalid Statemnt")
+
